@@ -125,17 +125,17 @@ app.use('/api/recipes', (req, res, next) => {
         _id: 'oeihfzeoi',
         title: 'My first recipe',
         ingredients: 'All the ingredients used',
-        instructions: '',
+        instructions: 'fgdsfgdfg',
         time: 4900,
-        difficulty: 'qsomihvqios',
+        difficulty: 455,
       },
       {
         _id: 'oeihfzeoi',
         title: 'My second recipe',
         ingredients: 'All the ingredients used',
-        instructions: '',
+        instructions: 'fdgsdfgcd',
         time: 4900,
-        difficulty: 'qsomihvqios',
+        difficulty: 455,
       },
     ];
     res.status(200).json(stuff);
